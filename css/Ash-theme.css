@@ -25,16 +25,25 @@
 /* unread channel color */
 .unread-2lAfLh {
      background-color: var(--text-channel-blip);
-    } 
+} 
 
 .modeUnread-1qO3K1 .name-23GUGE { 
-    color: var(--text-channel-unread) !important;
-    text-shadow: 0 0 2px;
+    color: var(--channel-unread) !important;
+    text-shadow: 0 0 5px;
+}
+
+/* text channel # */
+.wrapper-2jXpOf.modeUnread-1qO3K1 .content-1x5b-n .mainContent-u_9PKf .icon-1DeIlz {
+    color: var(--channel-unread);
+    -webkit-filter: drop-shadow(0 0 3px);
+    filter: drop-shadow(0 0 3px);
+    opacity: 1;
 }
 
 /* text channel color*/
 .name-23GUGE {
     color: var(--text-channel) !important; 
+    text-shadow: 0 0 3px;
 }
 
 /* Profile pictures width and height in chat */
