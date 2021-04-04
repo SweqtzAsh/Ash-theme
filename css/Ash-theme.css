@@ -24,11 +24,13 @@
 
 /* unread channel color */
 .unread-2lAfLh {
-     background-color: var(--text-channel-blip); 
+     background-color: var(--text-channel-blip);
     } 
 
 .modeUnread-1qO3K1 .name-23GUGE { 
     color: var(--text-channel-unread) !important;
+    transition: filter;
+    filter: blur(4px);
 }
 
 /* text channel color*/
